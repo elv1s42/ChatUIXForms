@@ -7,7 +7,9 @@
               FlowDirection="LeftToRight"
               Padding="10"
               HasShadow="false"
-              Margin="10,10,80,10">
-           <Label Text="{Binding Text}"/>
+              Margin="10,10,80,10"
+              CornerRadius="10">
+           <Label Text="{Binding Text}"
+                  HorizontalTextAlignment="End"/>
         </Frame>
 </ViewCell>

@@ -7,8 +7,11 @@
             Rotation="180"
             FlowDirection="LeftToRight"
             HasShadow="false"
-            Margin="80,10,10,10">
-           <Label Text="{Binding Text}"
-                  TextColor="White"/>
+            Margin="80,10,10,10"
+            CornerRadius="10">
+        <Label Text="{Binding Text}"
+               HorizontalTextAlignment="Start"
+               TextColor="White"
+               HorizontalOptions="FillAndExpand"/>
         </Frame>
 </ViewCell>
